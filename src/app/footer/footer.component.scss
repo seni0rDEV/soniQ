@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+footer {
+  font-family: 'PT Serif', serif;
+}
+
+// footer {
+//   background-color: #f8f9fa;
+//   height: 20rem;
+//   padding: 20px 0;
+//   text-align: center;
+//   position: fixed;
+//   bottom: 0;
+//   width: 100%;
+//   z-index: 1000;
+//   border-top: 1px solid #e9ecef;
+//   font-size: 14px;
+//   color: #6c757d;
+  
+// }
+
+ footer {
+ background-color: #8e7c64;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  p{
+    font-size: 18px;
+  }
+  }
