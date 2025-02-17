@@ -5,12 +5,22 @@ import { NgClass } from '@angular/common';
   standalone: true,
   imports: [NgClass],
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.scss'
+  styleUrl: './navbar.component.scss',
 })
 export class NavbarComponent {
-isMenuOpen = true;
+  // isMenuOpen = true;
 
-  toggleMenu() {
+  //   toggleMenu() {
+  //     this.isMenuOpen = !this.isMenuOpen;
+  //   }
+
+  isMenuOpen = false; // Initially hidden
+
+  toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  closeMenu(): void {
+    this.isMenuOpen = false;
   }
 }
